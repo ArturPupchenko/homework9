@@ -21,7 +21,7 @@ public class Retry {
 
 
     public static void run(int numberOfTry) throws Exception {
-        System.out.println("Бросаем кубик " + numberOfTry + " раз и ожидем шестерку");
+        System.out.println("Бросаем кубик " + numberOfTry + " раз и ожидаем шестерку");
 
         for (int i = 0; i < numberOfTry; i++) {
             try {
